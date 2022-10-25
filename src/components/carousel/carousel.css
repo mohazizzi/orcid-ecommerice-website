@@ -1,0 +1,31 @@
+.carousel{
+    position: relative;
+}
+.carousel_img-container{
+    width: 100vw;
+    height: fit-content;
+}
+.carousel_img-container_img{
+    width: 100%;
+}
+.carousel_btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.carousel_btn:hover{
+    opacity: 1;
+}
+.carousel_btn-left{
+    left: 20px;
+}
+.carousel_btn-right{
+    right: 20px;
+}

@@ -14,7 +14,7 @@ const LargNav = () => {
     }
 
   return (
-    <div className="navbar">
+    <nav className="navbar">
         <div className='d_flex space_between'>
             <div className='d_flex'>
                 <a href="#" className="navbar_logo">orcid</a>
@@ -123,7 +123,7 @@ const LargNav = () => {
                 </a>
             </li>
         </ul>
-    </div>
+    </nav>
   )
 }
 

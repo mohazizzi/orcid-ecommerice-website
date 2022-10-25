@@ -1,0 +1,120 @@
+footer{
+    padding: .7rem 1.2rem 0 1.2rem;
+    border-top: 1px solid var(--color-neutral-200);
+    color: var(--color-neutral-500);
+}
+.footer_logo{
+    color: var(--color-primary-700);
+    font-family: 'byekan-bold';
+    font-size: 2rem;
+}
+.footer_go-top{
+    border: 1px solid var(--color-neutral-200);
+    font-size: 1rem;
+    color: var(--color-neutral-400);
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+.footer_contact{
+    margin: 1rem 0;
+    display: flex;
+}
+.footer_contact :first-child{
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--color-neutral-500);
+}
+.footer_app{
+    background-color: #3c4b6d;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin: 2rem 0;
+}
+.footer_app p{
+    color: #fff;
+    font-size: 1rem;
+}
+.footer_app_group{
+    display: flex;
+    gap: 10px;
+}
+.footer_app_group_link{
+    background-color: #fff;
+    width: 142px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.footer_app_group_link img{
+    width: 100%;
+}
+.footer_end{
+    margin: 1rem 0;
+    align-items: flex-start;
+}
+.footer_end_group{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer_end h3{
+    color: var(--color-neutral-700);
+}
+.footer_end_group a{
+    color: var(--color-neutral-500);
+}
+.footer_end_social-links_icon{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.footer_end_group input{
+    width: 80%;
+    height: 50px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    color: var(--color-neutral-500);
+    background-color: var(--color-neutral-100);
+    border-radius: 5px;
+    padding: 0 .5rem;
+}
+.footer_end_group button{
+    width: 15%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: var(--color-neutral-200);
+    border-radius: 5px;
+}
+
+/* ========================media query============================ */
+@media only screen and (max-width: 820px) {
+    .footer_app{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .footer_contact{
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer_contact :first-child{
+        margin-left: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .footer_app_group{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer_end{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+    }
+}

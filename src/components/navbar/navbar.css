@@ -1,10 +1,11 @@
 .navbar{
     padding: .7rem 1.2rem .1rem 1.2rem;
     box-shadow: 0 1px 1px 1px var(--color-neutral-200);
-    position: relative;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
 }
 .navbar_logo{
-    text-decoration: none;
     color: var(--color-primary-700);
     font-family: 'lustra';
     font-size: 2rem;
@@ -83,7 +84,7 @@
     list-style: none;
     box-shadow: 0 3px 4px -1px var(--color-neutral-300);
     position: absolute;
-    /* display: none; */
+    background-color: #fff;
 }
 .navbar_category_items{
     padding: .5rem;

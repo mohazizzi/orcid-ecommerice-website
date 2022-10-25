@@ -17,10 +17,6 @@ const Navbar = () => {
       setIsMobile(false)
     }
   }
-  // useEffect(() => {
-  //     window.addEventListener("resize", updateWidth);
-  //     return () => window.removeEventListener("resize", updateWidth);
-  // }, []);
   useEffect(() => (window.onresize = updateWidth), []);
   
 
