@@ -1,4 +1,36 @@
 const Data = {
+    slider: [
+      {
+        id: 1,
+        image: './images/slide-card/slidecard-1.jpg',
+        title: "Lorem ipsum",
+        subTitle: "Lorem"
+      },
+      {
+        id: 2,
+        image: './images/slide-card/slidecard-2.jpg',
+        title: "Lorem ipsum",
+        subTitle: "Lorem"
+      },
+      {
+        id: 3,
+        image: './images/slide-card/slidecard-3.jpg',
+        title: "Lorem ipsum",
+        subTitle: "Lorem"
+      },
+      {
+        id: 4,
+        image: './images/slide-card/slidecard-4.jpg',
+        title: "Lorem ipsum",
+        subTitle: "Lorem"
+      },
+      {
+        id: 5,
+        image: './images/slide-card/slidecard-5.jpg',
+        title: "Lorem ipsum",
+        subTitle: "Lorem"
+      },
+    ],
     productItems: [
       {
         id: 1,

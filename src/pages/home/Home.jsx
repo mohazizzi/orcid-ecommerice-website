@@ -1,8 +1,8 @@
-import Carousel from '../../components/carousel/Carousel';
+import Slider from '../../components/slider/Slider';
 
 function Home() {
     return (
-      <Carousel/>
+      <Slider/>
     );
   }
   
