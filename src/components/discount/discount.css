@@ -1,0 +1,24 @@
+.discount{
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.discount_item img{
+    border-radius: 20px;
+    width: 350px;
+}
+@media only screen and (max-width: 710px) {
+    .discount_item img{
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .discount{
+        margin: 1rem 0;
+    }
+    .discount_item img{
+        width: 125px;
+    }
+}

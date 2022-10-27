@@ -1,8 +1,8 @@
 
 .container-slider {
-    height: 500px;
+    height: 30vw;
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
 }
   .slide {
     width: 150vw;
