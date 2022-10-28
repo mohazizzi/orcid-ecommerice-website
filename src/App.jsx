@@ -24,7 +24,7 @@ function App() {
       <RouterProvider router={router} />
 
 
-      <div style={{height: '90vh'}}></div>
+      {/* <div style={{height: '90vh'}}></div> */}
             
       <Footer/>
     </>

@@ -1,0 +1,23 @@
+.baner{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.baner_item{
+    width: fit-content;
+}
+.baner_item img{
+    width: 45vw;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .baner{
+        margin: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .baner_item img{
+        width: 95vw;
+    }
+}

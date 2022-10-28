@@ -86,6 +86,58 @@ const Data = {
         title: 'ورزش و سلامت',
       },
     ],
+    banerItem: [
+      {
+        id: 1,
+        image: './images/baner/baner-1.jpg',
+      },
+      {
+        id: 2,
+        image: './images/baner/baner-2.jpg',
+      },
+      {
+        id: 3,
+        image: './images/baner/baner-3.gif',
+      },
+      {
+        id: 4,
+        image: './images/baner/baner-4.jpg',
+      },
+    ],
+    brandItems: [
+      {
+        id: 1,
+        image: './images/brand/brand-1.png',
+      },
+      {
+        id: 2,
+        image: './images/brand/brand-2.png',
+      },
+      {
+        id: 3,
+        image: './images/brand/brand-3.png',
+      },
+      {
+        id: 4,
+        image: './images/brand/brand-4.png',
+      },
+      {
+        id: 5,
+        image: './images/brand/brand-5.png',
+      },
+      {
+        id: 6,
+        image: './images/brand/brand-6.png',
+      },
+      {
+        id: 7,
+        image: './images/brand/brand-7.png',
+      },
+      {
+        id: 8,
+        image: './images/brand/brand-8.jpg',
+      },
+    ],
     productItems: [
       {
         id: 1,

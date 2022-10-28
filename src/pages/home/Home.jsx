@@ -10,9 +10,9 @@ function Home() {
         <Slider/>
         <Discount/>
         <Category/>
-        {/* <Baner/> */}
-        {/* <Brand/> */}
-        {/* <Baner/> */}
+        <Baner firstBanerIndex={0} secondBanerIndex = {1}/>
+        <Brand/>
+        <Baner firstBanerIndex={2} secondBanerIndex = {3}/>
       </>
     );
   }
