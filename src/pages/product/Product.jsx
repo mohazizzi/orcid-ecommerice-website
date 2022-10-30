@@ -80,9 +80,9 @@ const Product = () => {
                 {
                     ProductItems.map((obj, index) =>{
                         if(formData.isAvailable && formData.firstPrice <= obj.price && formData.secondPrice >= obj.price){
-                            return obj.available && <ProductItem obj={obj} index={index} key={obj.id} englishNumberToFarsi={englishNumberToFarsi}/>
+                            return obj.available && <ProductItem obj={obj} key={obj.id} englishNumberToFarsi={englishNumberToFarsi}/>
                         }else if(formData.firstPrice <= obj.price && formData.secondPrice >= obj.price){ 
-                            return <ProductItem obj={obj} index={index} key={obj.id} englishNumberToFarsi={englishNumberToFarsi}/>
+                            return <ProductItem obj={obj} key={obj.id} englishNumberToFarsi={englishNumberToFarsi}/>
                         }
                     })
                 }

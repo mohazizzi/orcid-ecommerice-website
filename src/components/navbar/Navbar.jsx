@@ -3,7 +3,7 @@ import LargNav from './LargNav';
 import MobileNav from './MobileNav';
 import { useState, useEffect } from 'react';
 
-const Navbar = () => {
+const Navbar = ({ cartItem, englishNumberToFarsi }) => {
   
   const [isMobile, setIsMobile] = useState(true)
   const [windowWidth, setWindowWidth]   = useState(window.innerWidth);
@@ -21,7 +21,7 @@ const Navbar = () => {
   
 
   return (
-    isMobile ? <MobileNav/> : <LargNav/>
+    isMobile ? <MobileNav cartItem={cartItem} englishNumberToFarsi={englishNumberToFarsi}/> : <LargNav cartItem={cartItem} englishNumberToFarsi={englishNumberToFarsi}/>
   )
 }
 

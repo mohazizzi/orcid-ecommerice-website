@@ -26,6 +26,20 @@
     border-right: 1px solid var(--color-neutral-300);
     padding-right: 1rem;
     margin-right: 1rem;
+    position: relative;
+}
+.navbar_shop-cta span{
+    background-color: var(--color-primary-700);
+    color: #fff;
+    font-size: .7rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    bottom: 0;
+    right: 5px;
 }
 .navbar_search{
     margin-right: 1rem;

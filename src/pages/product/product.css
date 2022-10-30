@@ -72,6 +72,7 @@
     border: 1px solid var(--color-neutral-200);
     font-family: iran-sans-web;
     position: relative;
+    color: var(--color-neutral-700);
 }
 .product-item:hover{
     box-shadow: -1px -1px 33px -9px rgba(0,0,0,0.53);

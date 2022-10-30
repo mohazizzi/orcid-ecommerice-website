@@ -4,11 +4,11 @@ import { BiMenu } from 'react-icons/bi';
 import { MdOutlineFastfood } from 'react-icons/md';
 import { AiOutlineFire } from 'react-icons/ai';
 import { useState } from 'react';
+import { Link } from "react-router-dom"
 
-
-const LargNav = () => {
+const LargNav = ({ cartItem, englishNumberToFarsi }) => {
     const [showCategory, setShowCategory] = useState(true)
-
+    
     function handleClick(){
         setShowCategory(prevShow => !prevShow)
     }
@@ -17,7 +17,7 @@ const LargNav = () => {
     <nav className="navbar">
         <div className='d_flex space_between'>
             <div className='d_flex'>
-                <a href="#" className="navbar_logo">orcid</a>
+                <Link to='/' className="navbar_logo">orcid</Link>
                 <form action="#" className='navbar_search'>
                     <button>
                         <RiSearchLine/>
@@ -26,15 +26,16 @@ const LargNav = () => {
                 </form>
             </div>
             <div className='d_flex'>
-                <a href="#" className='navbar_login-cta'>
+                <Link to='/login' className='navbar_login-cta'>
                     <HiOutlineLogin fontSize="1.3rem"/>
                     <span>
                         ورود | ثبت نام
                     </span>
-                </a>
-                <a href="#" className='navbar_shop-cta'>
+                </Link>
+                <Link to='/checkout' className='navbar_shop-cta'>
                     <RiShoppingCartLine fontSize="1.3rem"/>
-                </a>
+                    {cartItem.length > 0 && <span>{englishNumberToFarsi(`${cartItem.length}`)}</span>}
+                </Link>
             </div>
         </div>
         <ul className="navbar-nav">
@@ -47,80 +48,80 @@ const LargNav = () => {
                 </button>
             </li>
             <li className="navbar_nav_items">
-                <a href="#" className='navbar_nav_items_links'>
+                <Link to='/product' className='navbar_nav_items_links'>
                     <MdOutlineFastfood/>
                     <span>
                         سوپرمارکت
                     </span>
-                </a>
+                </Link>
             </li>
             <li className="navbar_nav_items">
-                <a href="#" className='navbar_nav_items_links'>
+                <Link to='/product' className='navbar_nav_items_links'>
                     <AiOutlineFire/>
                     <span>
                         پرفروش ترین ها
                     </span>
-                </a>
+                </Link>
             </li>
             <li className="navbar_nav_items">
-                <a href="#" className='navbar_nav_items_links'>
+                <Link to='/product' className='navbar_nav_items_links'>
                     <HiOutlineTicket/>
                     <span>
                         تخفیف ها و پیشنهادها
                     </span>
-                </a>
+                </Link>
             </li>
             <li className="navbar_nav_items">
-                <a href="#" className='navbar_nav_items_links'>
+                <Link to='/product' className='navbar_nav_items_links'>
                     <RiPercentLine/>
                     <span>
                         شگفت انگیزها
                     </span>
-                </a>
+                </Link>
             </li>
             <li className="navbar_nav_items">
-                <a href="#" className='navbar_nav_items_links'>
+                <Link to='/product' className='navbar_nav_items_links'>
                     <span>
                         سوالی دارید؟
                     </span>
-                </a>
+                </Link>
             </li>
         </ul>
         <ul className={`navbar_category ${showCategory ? 'category-show' : ''}`}>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     موبایل
-                </a>
+                </Link>
             </li>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     کالای دیجیتال
-                </a>
+                </Link>
             </li>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     مد و پوشاک
-                </a>
+                </Link>
             </li>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     کالاهای سوپرمارکتی
-                </a>
+                </Link>
             </li>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     زیبایی و سلامت
-                </a>
+                </Link>
             </li>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     خانه و آشپزخانه
-                </a>
+                </Link>
             </li>
             <li className="navbar_category_items">
-                <a href="#" className='navbar_category_items_links'>
+                <Link to='/product' className='navbar_category_items_links'>
                     ورزش و سفر
-                </a>
+                </Link>
             </li>
         </ul>
     </nav>
