@@ -1,13 +1,24 @@
 import './product.css';
 import Data from "../../data"
 import ProductItem from './ProductItem';
-import { useState } from 'react';
+import Pagination from '../../components/pagination/Pagination';
+import { useState, useMemo } from 'react';
+
+let PageSize = 20;
 
 const Product = () => {
+    
+    const ProductItems = Data.productItems
+
+    const [currentPage, setCurrentPage] = useState(1);
+    const currentTableData = useMemo(() => {
+        const firstPageIndex = (currentPage - 1) * PageSize;
+        const lastPageIndex = firstPageIndex + PageSize;
+        return ProductItems.slice(firstPageIndex, lastPageIndex);
+      }, [currentPage]);
 
     let englishNumberToFarsi = (number)=> parseInt(number).toLocaleString('ar-EG')
 
-    const ProductItems = Data.productItems
     const [formData, setFormData] = useState(
         {
             isAvailable: false,
@@ -78,7 +89,7 @@ const Product = () => {
             </div>
             <div className="product_container">   
                 {
-                    ProductItems.map((obj, index) =>{
+                    currentTableData.map((obj, index) =>{
                         if(formData.isAvailable && formData.firstPrice <= obj.price && formData.secondPrice >= obj.price){
                             return obj.available && <ProductItem obj={obj} key={obj.id} englishNumberToFarsi={englishNumberToFarsi}/>
                         }else if(formData.firstPrice <= obj.price && formData.secondPrice >= obj.price){ 
@@ -88,6 +99,13 @@ const Product = () => {
                 }
             </div>
         </div>
+        <Pagination
+            className="pagination-bar"
+            currentPage={currentPage}
+            totalCount={ProductItems.length}
+            pageSize={PageSize}
+            onPageChange={page => setCurrentPage(page)}
+        />
     </div>
   )
 }

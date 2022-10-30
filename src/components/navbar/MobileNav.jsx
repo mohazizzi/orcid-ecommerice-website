@@ -15,7 +15,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
     }
 
   return (
-    <nav className="navbar">
+    <>
         <div className=''>
             <div className='d_flex space_between'>
                 <button className='mobile-navbar_open' onClick={handleClick}>
@@ -127,7 +127,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                 </div>
             </div>
         </div>
-    </nav>
+    </>
   )
 }
 

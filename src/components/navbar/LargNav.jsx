@@ -14,7 +14,7 @@ const LargNav = ({ cartItem, englishNumberToFarsi }) => {
     }
 
   return (
-    <nav className="navbar">
+    <>
         <div className='d_flex space_between'>
             <div className='d_flex'>
                 <Link to='/' className="navbar_logo">orcid</Link>
@@ -124,7 +124,7 @@ const LargNav = ({ cartItem, englishNumberToFarsi }) => {
                 </Link>
             </li>
         </ul>
-    </nav>
+    </>
   )
 }
 
