@@ -11,7 +11,9 @@ const Footer = () => {
     <footer>
         <div className="d_flex space_between">
             <Link to='/' className="footer_logo">اورکید</Link>
-            <a href="#go-top" className="footer_go-top">بازگشت به بالا</a>
+            <button className="footer_go-top" onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}>
+                بازگشت به بالا
+            </button>
         </div>
         <div className="footer_contact">
             <p>تلفن پشتیبانی ۶۱۹۳۲۲۰۰ - ۰۲۱</p>
