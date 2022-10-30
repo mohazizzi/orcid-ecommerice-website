@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/orcid-ecommerice-website/static/css/main.f10cc1d8.css",
+    "main.js": "/orcid-ecommerice-website/static/js/main.bd5ec60b.js",
+    "static/media/BYekan+-Bold.ttf": "/orcid-ecommerice-website/static/media/BYekan+-Bold.3e2154245604d626c3e0.ttf",
+    "static/media/BYekan+.ttf": "/orcid-ecommerice-website/static/media/BYekan+.f26972c64b83c2aea5ca.ttf",
+    "static/media/IRANSans-web.ttf": "/orcid-ecommerice-website/static/media/IRANSans-web.9ad1e88d2a69f7845668.ttf",
+    "static/media/IRANSans-Bold-web.ttf": "/orcid-ecommerice-website/static/media/IRANSans-Bold-web.ac55ea1ecefe68435f37.ttf",
+    "static/media/IRANSans-Medium-web.ttf": "/orcid-ecommerice-website/static/media/IRANSans-Medium-web.3dc441d156b7f822c46c.ttf",
+    "static/media/IRANSans-web.woff": "/orcid-ecommerice-website/static/media/IRANSans-web.ec7e9c88f5b3a1af43a7.woff",
+    "static/media/IRANSans-Bold-web.woff": "/orcid-ecommerice-website/static/media/IRANSans-Bold-web.955d345afd75e29acf58.woff",
+    "static/media/IRANSans-Medium-web.woff": "/orcid-ecommerice-website/static/media/IRANSans-Medium-web.2e0a8cc4201444f12ead.woff",
+    "static/media/Lustra-Bold.otf": "/orcid-ecommerice-website/static/media/Lustra-Bold.3d351c9532235937acae.otf",
+    "static/media/IRANSans-web.eot": "/orcid-ecommerice-website/static/media/IRANSans-web.0a6e4bbf449cdb08b781.eot",
+    "static/media/IRANSans-Bold-web.eot": "/orcid-ecommerice-website/static/media/IRANSans-Bold-web.3e2c7e98b62e7800bd63.eot",
+    "static/media/IRANSans-Medium-web.eot": "/orcid-ecommerice-website/static/media/IRANSans-Medium-web.5e7d6844cacde4e33514.eot",
+    "static/media/IRANSans-web.woff2": "/orcid-ecommerice-website/static/media/IRANSans-web.23cd9db191f0da3d474a.woff2",
+    "static/media/IRANSans-Bold-web.woff2": "/orcid-ecommerice-website/static/media/IRANSans-Bold-web.3bd2766ae1257b5afe3d.woff2",
+    "static/media/IRANSans-Medium-web.woff2": "/orcid-ecommerice-website/static/media/IRANSans-Medium-web.a06ef2cd32bddeaf44c3.woff2",
+    "static/media/sabad-kharid.png": "/orcid-ecommerice-website/static/media/sabad-kharid.4484be60ab59252f9257.png",
+    "index.html": "/orcid-ecommerice-website/index.html",
+    "main.f10cc1d8.css.map": "/orcid-ecommerice-website/static/css/main.f10cc1d8.css.map",
+    "main.bd5ec60b.js.map": "/orcid-ecommerice-website/static/js/main.bd5ec60b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f10cc1d8.css",
+    "static/js/main.bd5ec60b.js"
+  ]
+}
