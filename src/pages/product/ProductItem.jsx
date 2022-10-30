@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 
-
 const ProductItem = ({ obj, englishNumberToFarsi }) => {
 
   return (

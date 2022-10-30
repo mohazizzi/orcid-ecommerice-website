@@ -23,7 +23,7 @@ const SingleProductItem = ({ obj, addToCart }) => {
   return (
     <div className="single-product">
         <div className="single-product_image">
-            <img src={`.${obj.image}`} alt="تصویر محصول" />
+            <img src={obj.image} alt="تصویر محصول" />
             { obj.discount && <div className="single-product_discount">{obj.discount}</div> }
         </div>
         <div className="single-product_info">
