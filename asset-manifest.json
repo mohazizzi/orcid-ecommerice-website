@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orcid-ecommerice-website/static/css/main.f10cc1d8.css",
-    "main.js": "/orcid-ecommerice-website/static/js/main.bd5ec60b.js",
+    "main.js": "/orcid-ecommerice-website/static/js/main.c1b2f06d.js",
     "static/media/BYekan+-Bold.ttf": "/orcid-ecommerice-website/static/media/BYekan+-Bold.3e2154245604d626c3e0.ttf",
     "static/media/BYekan+.ttf": "/orcid-ecommerice-website/static/media/BYekan+.f26972c64b83c2aea5ca.ttf",
     "static/media/IRANSans-web.ttf": "/orcid-ecommerice-website/static/media/IRANSans-web.9ad1e88d2a69f7845668.ttf",
@@ -20,10 +20,10 @@
     "static/media/sabad-kharid.png": "/orcid-ecommerice-website/static/media/sabad-kharid.4484be60ab59252f9257.png",
     "index.html": "/orcid-ecommerice-website/index.html",
     "main.f10cc1d8.css.map": "/orcid-ecommerice-website/static/css/main.f10cc1d8.css.map",
-    "main.bd5ec60b.js.map": "/orcid-ecommerice-website/static/js/main.bd5ec60b.js.map"
+    "main.c1b2f06d.js.map": "/orcid-ecommerice-website/static/js/main.c1b2f06d.js.map"
   },
   "entrypoints": [
     "static/css/main.f10cc1d8.css",
-    "static/js/main.bd5ec60b.js"
+    "static/js/main.c1b2f06d.js"
   ]
 }
