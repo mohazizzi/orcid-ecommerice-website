@@ -27,7 +27,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                     </button>
                     <ul className="mobile-navbar_nav">
                         <li className="mobile-navbar_nav_items">
-                            <Link to="/product" className='mobile-navbar_nav_items_links'>
+                            <Link to="/product" className='mobile-navbar_nav_items_links' onClick={handleClick}>
                                 <MdOutlineFastfood/>
                                 <span>
                                     سوپرمارکت
@@ -35,7 +35,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                             </Link>
                         </li>
                         <li className="mobile-navbar_nav_items">
-                            <Link to="/product" className='mobile-navbar_nav_items_links'>
+                            <Link to="/product" className='mobile-navbar_nav_items_links' onClick={handleClick}>
                                 <AiOutlineFire/>
                                 <span>
                                     پرفروش ترین ها
@@ -43,7 +43,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                             </Link>
                         </li>
                         <li className="mobile-navbar_nav_items">
-                            <Link to="/product" className='mobile-navbar_nav_items_links'>
+                            <Link to="/product" className='mobile-navbar_nav_items_links' onClick={handleClick}>
                                 <HiOutlineTicket/>
                                 <span>
                                     تخفیف ها و پیشنهادها
@@ -51,7 +51,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                             </Link>
                         </li>
                         <li className="mobile-navbar_nav_items">
-                            <Link to="/product" className='mobile-navbar_nav_items_links'>
+                            <Link to="/product" className='mobile-navbar_nav_items_links' onClick={handleClick}>
                                 <RiPercentLine/>
                                 <span>
                                     شگفت انگیزها
@@ -59,7 +59,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                             </Link>
                         </li>
                         <li className="mobile-navbar_nav_items">
-                            <Link to="/product" className='mobile-navbar_nav_items_links'>
+                            <Link to="/product" className='mobile-navbar_nav_items_links' onClick={handleClick}>
                                 <span>
                                     سوالی دارید؟
                                 </span>
@@ -68,37 +68,37 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                     </ul>
                     <ul className='mobile-navbar_category'>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 موبایل
                             </Link>
                         </li>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 کالای دیجیتال
                             </Link>
                         </li>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 مد و پوشاک
                             </Link>
                         </li>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 کالاهای سوپرمارکتی
                             </Link>
                         </li>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 زیبایی و سلامت
                             </Link>
                         </li>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 خانه و آشپزخانه
                             </Link>
                         </li>
                         <li className="mobile-navbar_category_items">
-                            <Link to="/product" className='mobile-navbar_category_items_links'>
+                            <Link to="/product" className='mobile-navbar_category_items_links' onClick={handleClick}>
                                 ورزش و سفر
                             </Link>
                         </li>
@@ -114,7 +114,7 @@ const MobileNav = ({ cartItem, englishNumberToFarsi }) => {
                     <input type="text" placeholder='جستجو'/>
                 </form>
                 <div className='d_flex'>
-                    <Link to='/login' className='navbar_login-cta mobile_login-cta'>
+                    <Link to='/' className='navbar_login-cta mobile_login-cta'>
                         <HiOutlineLogin fontSize="1.3rem"/>
                         <span>
                             ورود

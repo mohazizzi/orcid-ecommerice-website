@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import Product from './pages/product/Product';
 import SingleProduct from './pages/single-product/SingleProduct';
+import CheckOut from './pages/checkout/CheckOut';
 import Data from './data.js'; 
 import { Route, Routes } from "react-router-dom"
 import { useState } from 'react';
@@ -36,11 +37,13 @@ function App() {
 
   return (
     <>
+      <div id='go-top'></div>
       <Navbar cartItem={cartItem} englishNumberToFarsi={englishNumberToFarsi}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
         <Route path="/product/:id" element={<SingleProduct englishNumberToFarsi={englishNumberToFarsi} productItems={productItems} addToCart={addToCart}/>} />
+        <Route path="/checkout" element={<CheckOut cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty} englishNumberToFarsi={englishNumberToFarsi}/>} />
       </Routes>      
       <Footer/>
     </>

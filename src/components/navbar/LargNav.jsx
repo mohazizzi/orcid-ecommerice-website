@@ -26,7 +26,7 @@ const LargNav = ({ cartItem, englishNumberToFarsi }) => {
                 </form>
             </div>
             <div className='d_flex'>
-                <Link to='/login' className='navbar_login-cta'>
+                <Link to='/' className='navbar_login-cta'>
                     <HiOutlineLogin fontSize="1.3rem"/>
                     <span>
                         ورود | ثبت نام
